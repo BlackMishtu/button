@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		
+		<meta charset="UTF-8" />
+		
+		<title>El título del documento va aquí</title>
+		<style>
+			header{
+			background-color: Salmon;
+			font-size:30px;
+			}
+			nav{
+			background-color: Fuchsia;
+			font-size:20px;
+			}
+			section{
+			background-color: Gainsboro;
+			}
+			footer{
+			background-color: Aqua;
+			font-size:10px;
+			}
+		</style>
+		
+	</head>
+
+<body>
+	<header>Aquí va el header o encabezado</header>
+
+	<nav><a href="html/bio.html">bio</a> asociaciones</nav>
+	
+	<section>
+		<p id="alicia">Aquí voy a comenzar a poner una sección</p>
+		<p id="demo"><p>Puedo escribir más cosas</p></p>
+		
+		<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+	
+	<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>	
+
+<button type="button" onclick="document.getElementById('alicia').style.fontSize='50px'">crecer</button>
+<button type="button" onclick="document.getElementById('alicia').style.fontSize='10px'">disminuir</button>
+<button type="button" onclick="document.getElementById('alicia').style.color='Red'">color</button>
+<button type="button" onclick="document.getElementById('alicia').style.backgroundColor='blue'">background</button>
+
+
+
+	</section>
+	
+	<footer>esto es footer o pie de página</footer>
+	
+</body>
+
+</html>
